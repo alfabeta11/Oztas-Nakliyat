@@ -42,12 +42,15 @@ header {
 .logo-container {
  padding: 0 2rem 0 0;   
 }
-.logo-container span {
+.logo-container a {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
+    color: black;
     letter-spacing: 1.25px;
+}
+.mobile {
+    display: none;
 }
 .nav-list {
     display: flex;
@@ -156,7 +159,7 @@ h4 {
     font-size: 1rem;
 }
 /** footer **/ 
-footer .logo-container a{color:white}
+footer .logo-container  a{color:white}
 footer a {color: lightblue}
 footer {
     display: flex;
@@ -195,10 +198,13 @@ footer {
     .nav-list {
         display: none;
     }
+    .mobile {
+        display: inline;
+    }
     .logo-container {
         padding: 0;   
     }
-    .logo-container span {
+    .logo-container a {
         font-size: 1.5rem;
         letter-spacing: .75px;
     }
