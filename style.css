@@ -9,7 +9,7 @@ body {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 2rem;
     background-color: #effdfd;
     color: #040304;
@@ -149,7 +149,7 @@ h4 {
 /* Referanslar */
 #referanslar .container > div {
     background-color: #e7e7e7;
-    padding: 1rem .8rem;
+    padding: 1rem;
 }
 #referanslar p {
     margin-bottom: 1rem;
@@ -161,6 +161,7 @@ h4 {
 /** footer **/ 
 footer .logo-container  a{color:white}
 footer a {color: lightblue}
+footer p {margin-bottom: 1rem;}
 footer {
     display: flex;
     justify-content: space-between;
@@ -192,7 +193,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         padding: 1rem;
     }
     .nav-list {
