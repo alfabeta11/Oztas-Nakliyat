@@ -37,7 +37,7 @@ header {
    display: flex; 
    align-items: center;
    justify-content: space-between;
-   margin-bottom: 3rem;
+   margin-bottom: 5rem;
 }
 .logo-container {
  padding: 0 2rem 0 0;   
@@ -170,7 +170,7 @@ footer {
     color: #eee;
     padding: 2rem
 }
-
+address {margin-bottom: 1rem;}
 /*** Responsiveness ***/
 
 @media screen and (max-width: 800px) {
@@ -222,4 +222,13 @@ footer {
         flex-direction: column;
         gap: 2rem;
     }
+}
+
+/* Animate on scroll */
+.hidden {
+    opacity: 0;
+}
+.show {
+    opacity: 1;
+    transition: all 1s;
 }
